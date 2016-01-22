@@ -1,0 +1,25 @@
+/*
+=header
+*/
+header{
+  overflow: hidden;
+}
+header h1{
+  background: url(../img/logo.svg) no-repeat;
+  width: 180;
+  height: 90;
+  text-indent: -9999px;
+  margin: 10px 10px;
+  float: left;
+}
+
+/*
+=nav
+*/
+
+nav{
+  float: right;
+}
+nav li{
+  display: inline;
+}
