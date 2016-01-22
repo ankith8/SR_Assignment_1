@@ -3,23 +3,112 @@
 */
 header{
   overflow: hidden;
+  background-color: #ffffcc;
+  width: 960;
+  height: 190;
 }
 header h1{
-  background: url(../img/logo.svg) no-repeat;
-  width: 180;
-  height: 90;
-  text-indent: -9999px;
-  margin: 10px 10px;
+  font-size: 30px;
+  /*width: 180;
+  height: 90;*/
+  text-indent: -250px;
+  margin: 10px 20px;
   float: left;
+}
+
+a{
+  color:grey;
+  text-decoration: none;
+}
+a:hover ,selected {
+  color: black;
 }
 
 /*
 =nav
 */
-
 nav{
   float: right;
+  padding-top: 20px;
+  padding-right: 20px;
 }
 nav li{
   display: inline;
+}
+nav a{
+  text-transform: lowercase;
+  font-size: 15px;
+}
+
+body{
+  background: #ffff99;
+}
+
+.main{
+  margin-top: 20px;
+}
+
+
+.main h1{
+  margin-top: 10px;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  text-transform: lowercase;
+}
+
+.col_full img{
+  margin-top: 10px;
+  align-items: center;
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+.main .grid_4{
+padding-bottom: 20px;
+}
+
+.main .grid_4 img{
+  width: 300px;
+  height: 280px;
+}
+
+.section h6, h2{
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.container .grid_6 a{
+  text-align: right;
+  float: right;
+}
+
+.container .grid_6{
+  padding-bottom: 50px;
+}
+
+.statistics-block{
+  text-align: inherit;
+}
+.statistics-block img{
+  margin-left: 70px;
+}
+
+.heading-block center h1{
+  align-items: center;
+}
+
+.container_12{
+  margin-top: 10px;
+}
+
+/* =footer */
+.footer{
+  clear: both;
+  height: 250px;
+  background-color: #ffffcc;
+}
+.footer .grid_4{
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
 }
