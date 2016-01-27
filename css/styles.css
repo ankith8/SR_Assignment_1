@@ -9,8 +9,6 @@ header{
 }
 header h1{
   font-size: 30px;
-  /*width: 180;
-  height: 90;*/
   text-indent: -250px;
   margin: 10px 20px;
   float: left;
@@ -45,9 +43,8 @@ body{
 }
 
 .main{
-  margin-top: 20px;
+  margin-top: 10px;
 }
-
 
 .main h1{
   margin-top: 10px;
@@ -72,43 +69,65 @@ padding-bottom: 20px;
   height: 280px;
 }
 
-.section h6, h2{
+.section img{
+  /*clear: both;*/
+  float: left;
+  margin: 10px 0px;
+}
+
+.section h2{
   text-align: center;
   text-transform: lowercase;
+  margin-bottom: 5px;
 }
 
-.container .grid_6 a{
-  text-align: right;
-  float: right;
-}
-
-.container .grid_6{
-  padding-bottom: 50px;
-}
-
-.statistics-block{
-  text-align: inherit;
-}
-.statistics-block img{
-  margin-left: 70px;
-}
-
-.heading-block center h1{
+.headingcenter h1{
   align-items: center;
+}
+
+.col_full{
+  position: relative;
+   width: 100%;
+}
+
+.col_full h6{
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
 }
 
 .container_12{
   margin-top: 10px;
 }
 
+.container .grid_4{
+    margin: 0px,0px;
+}
+
+.statistics-block .img{
+    margin: 0px,10px;
+}
+
+.line{
+  margin-top: 20px;
+}
+
 /* =footer */
 .footer{
   clear: both;
-  height: 250px;
+  height: 260px;
   background-color: #ffffcc;
 }
 .footer .grid_4{
   margin-top: 20px;
   margin-left: 10px;
   text-align: center;
+}
+
+.footer ul{
+  text-decoration: none;
+  list-style-type: none;
+  text-align: -webkit-center;
 }
